@@ -3,9 +3,6 @@ package ru.job4j.oop;
 public class Battery {
     private int load;
 
-    public Battery() {
-    }
-
     public Battery(int load) {
         this.load = load;
     }
