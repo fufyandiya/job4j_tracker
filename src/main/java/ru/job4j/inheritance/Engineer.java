@@ -8,7 +8,4 @@ public class Engineer extends Profession {
         super(name, patronymic, education, birthday);
         this.experienceOfEngineering = experienceOfEngineering;
     }
-
-    public Engineer() {
-    }
 }

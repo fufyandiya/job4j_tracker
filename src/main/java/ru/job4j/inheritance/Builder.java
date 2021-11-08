@@ -9,10 +9,6 @@ public class Builder extends Engineer {
         this.projectedBuildings = builtBuildings;
     }
 
-    public Builder(int builtBuildings) {
-        this.projectedBuildings = builtBuildings;
-    }
-
     public int getProjectedBuildings() {
         return projectedBuildings;
     }
