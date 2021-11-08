@@ -9,10 +9,6 @@ public class Surgeon extends Doctor {
         this.successSurgeries = successSurgeries;
     }
 
-    public Surgeon(int successSurgeries) {
-        this.successSurgeries = successSurgeries;
-    }
-
     public int getSuccessSurgeries() {
         return successSurgeries;
     }

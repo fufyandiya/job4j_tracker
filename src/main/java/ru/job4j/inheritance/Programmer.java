@@ -9,10 +9,6 @@ public class Programmer extends Engineer {
         this.completedProgramms = completedProgramms;
     }
 
-    public Programmer(int completedProgramms) {
-        this.completedProgramms = completedProgramms;
-    }
-
     public int getCompletedProgramms() {
         return completedProgramms;
     }

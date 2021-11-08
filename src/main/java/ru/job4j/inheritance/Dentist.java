@@ -9,10 +9,6 @@ public class Dentist extends Doctor {
         this.healedTeeth = healedTeeth;
     }
 
-    public Dentist(int healedTeeth) {
-        this.healedTeeth = healedTeeth;
-    }
-
     public int getHealedTeeth() {
         return healedTeeth;
     }

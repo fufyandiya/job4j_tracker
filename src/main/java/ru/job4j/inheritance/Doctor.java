@@ -8,11 +8,4 @@ public class Doctor extends Profession {
         super(name, patronymic, education, birthday);
         this.experienceOfHealing = experienceOfHealing;
     }
-
-    public Doctor(int experienceOfHealing) {
-        this.experienceOfHealing = experienceOfHealing;
-    }
-
-    public Doctor() {
-    }
 }

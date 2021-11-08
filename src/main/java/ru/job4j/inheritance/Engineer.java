@@ -9,10 +9,6 @@ public class Engineer extends Profession {
         this.experienceOfEngineering = experienceOfEngineering;
     }
 
-    public Engineer(int experienceOfEngineering) {
-        this.experienceOfEngineering = experienceOfEngineering;
-    }
-
     public Engineer() {
     }
 }
