@@ -9,10 +9,9 @@ public class Fact {
         int rsl = 1;
         if (n < 0) {
             throw new IllegalArgumentException("The number should be higher than 0");
-        } else {
-            for (int index = 1; index <= n; index++) {
-                rsl *= index;
-            }
+        }
+        for (int index = 1; index <= n; index++) {
+            rsl *= index;
         }
         return rsl;
     }
