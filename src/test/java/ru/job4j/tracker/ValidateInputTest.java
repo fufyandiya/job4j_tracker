@@ -33,7 +33,7 @@ public class ValidateInputTest {
     public void whenManyValidInputs() {
         Output out = new StubOutput();
         Input in = new StubInput(
-                new String[] {"0", "test", "1", "5"}
+                new String[] {"0", "1", "5"}
         );
         ValidateInput input = new ValidateInput(out, in);
         int selected = input.askInt("Add item:");
